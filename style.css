@@ -16,6 +16,7 @@ body {
 
 header {
     text-align: center;
+    margin-bottom: 20px;
     padding: 20px;
     background-color: #4c6ef5;
     color: #fff;
@@ -85,6 +86,132 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #3a56c5;
 }
+
+
+/* Estilos para o Formulário */
+.form-section {
+    max-width: 600px;
+   
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para o Formulário */
+.form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a Seção de Alertas */
+#alertas {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab__button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.tab__button--is-active {
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+.tab__content {
+    display: none;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tab__content--is-active {
+    display: flex;
+}
+
+.card-index {
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.card-content span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.alert {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.card-content time {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+
 
 /* Seções principais */
 .info-section, .map-section, .contact-section {

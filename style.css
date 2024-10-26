@@ -144,13 +144,15 @@ nav {
     display: none;
     list-style: none;
     padding: 0;
-    display: flex;
+    
     gap: 20px;
     justify-content: center;
 }
 
 .tab__content--is-active {
     display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .card-index {
@@ -159,6 +161,7 @@ nav {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    flex-direction: row;
 }
 
 li img {
@@ -209,6 +212,18 @@ li img {
 .card-content time {
     font-size: 0.8rem;
     color: #555;
+}
+
+/* Layout responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+    .tab__content {
+        flex-direction: column; /* Define que os cards fiquem em uma coluna em telas pequenas */
+        align-items: center;
+    }
+    
+    li {
+        width: 90%; /* Ajusta a largura dos cards para caber melhor em telas pequenas */
+    }
 }
 
 
